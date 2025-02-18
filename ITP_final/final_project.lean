@@ -491,7 +491,7 @@ theorem half_or : ∀ γ : HurInt, ∃ (a b c d : ℤ),
           rw[this]; ring
 
 
-/-- A lemma to show Theorem 2.1(Conditiona Four Square Theorem):
+/-- A lemma to show Theorem 2.1(Conditional Four Square Theorem):
 The square of the norm of a Hurwitz integer is always an integer.-/
 theorem normSq_int : ∀ γ : HurInt, ∃ z : ℤ, normSq γ.val = z := by
   intro γ
